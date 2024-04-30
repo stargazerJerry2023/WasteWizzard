@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 from huggingface_hub import from_pretrained_fastai
 import pathlib
-import platform
+
 
 
 
