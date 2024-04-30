@@ -3,9 +3,9 @@ import numpy as np
 from PIL import Image
 from huggingface_hub import from_pretrained_fastai
 import pathlib
-plt = platform.system()
-if plt == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
 
+temp = pathlib.PosixPath
+pathlib.PosixPath = pathlib.WindowsPath
 
 page_bg_img = f"""
 <style>
