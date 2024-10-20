@@ -10,7 +10,7 @@ pathlib.PosixPath = pathlib.WindowsPath
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://free4kwallpapers.com/uploads/originals/2018/07/19/forest-at-dusk-mikael-gustafsson--download-link-in-comments-wallpaper.jpg");
+background-image: url("https://firebasestorage.googleapis.com/v0/b/discover-rgv.appspot.com/o/Nature_Back.jpg?alt=media&token=9ab39062-6b69-4ab7-aab3-9bf5763cb007");
 background-size: cover;
 background-position: center center;
 background-repeat: no-repeat;
